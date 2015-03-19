@@ -34,6 +34,8 @@ public class comSint {
     private static final int VAR = 'R';
     private static final int EOF = '.';
     private static final int TERMIN ='"';
+    private static final int NUMERO = 600;
+    private static final int ID = 700;
     
     private Integer linea = 1; 
     private StringTokenizer tokenizer = null;
