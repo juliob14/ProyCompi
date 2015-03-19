@@ -173,7 +173,7 @@ public class comSint {
     
     
     private Boolean esnumeroId(Token token){
-        return token.getToken() == VAR || token.getToken() == DEF;
+        return token.getToken() == ID || token.getToken() == NUMERO;
     }
     private StringTokenizer getTokenizer(String codigoFuente){
         if(this.tokenizer == null){
